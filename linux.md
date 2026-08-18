@@ -39,7 +39,7 @@ A downside, a this could be the fault of the older laptop (it's about 8 years ol
 ## Killing Windows
 The new PC arrived, a shiny (and tiny) Geekom A8 with AMD ryzen 7. Not the shiniest/fastest model, but moderately fast. It came with Windows 11 installed. I opted for Manjaro KDE Plasma on the recommendation of a colleague and it looked like a great system for it's OS approach. It was extremely satisfying to delete windows during the installation, but the install was not hiccup free especially when the pc wasn't recognizing the wireless keyboard and displays I had, and I had to do a couple of keyboard direct plug in workarounds. 
 
-The latter continued to plague use where the wireless Logitech keyboard (which worked great in Windows!) had issues connecting to bluetooth. Sometimes bluetooth connection issues feel like giving a Powerpoint presentation in the 90s where it was always a challenge to connect to a projector. Anyway, I swapped out that beleved keyboard for one that's almost as good but that connects flawlessly everytime I use the PC.
+The latter continued to plague use where the wireless Logitech keyboard (which worked great in Windows!) had issues connecting to bluetooth. Sometimes bluetooth connection issues feel like giving a Powerpoint presentation in the 90s where it was always a challenge to connect to a projector. Anyway, I swapped out that beleved keyboard for one that's almost as good but that connects flawlessly everytime I use the PC. 
 
 kept windows on old pc, but deleted a lot of extra stuff
 pc w/o screen or keyboard was a challenge for installation
