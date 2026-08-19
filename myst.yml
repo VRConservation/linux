@@ -12,6 +12,16 @@ project:
     - file: linux.md    
 site:
   template: book-theme
-options:
-  favicon: favicon.ico
-  logo: logo.png
+  options:
+    favicon: favicon.ico
+    logo: logo.png
+    logo_dark: logo_dark.png
+  nav:
+    - title: 3point
+      url: https://3point.xyz
+    - title: Propongo
+      url: https://propongo.org
+    - title: Geospatial
+      url: https://3point.xyz/geo2/ 
+    - title: Con Finance
+      url: https://confinance.info/ 

@@ -12,7 +12,7 @@ authors:
 license: CC-BY-4.0
 keywords: hardware, efficiency, linux, windows, os
 abstract: |
-  Switching from Windows to Linux for daily work is a worthwhile and often valuable consideration. I describe my personal journey to change motivated by persistent performance frustrations with Windows 11. I converted one laptop and a mini-PC—one running Cosmic Pop!_OS and the other running Manjaro KDE Plasma—alongside a headless Debian server. Key benefits include significantly faster application startup times and an overall sense that machines run more efficiently under Linux. The author also acknowledges challenges such as Bluetooth connectivity, touchscreen compatibility, and the learning curve of terminal-based workflows, along with practical workarounds. Recommendations for prospective switchers include starting on old hardware, embracing the terminal, using alternatives like OnlyOffice and VS Code, and maintaining a backup Windows machine for software that lacks Linux support. A summary table of pros and cons is provided.
+  Making the switch from Windows to Linux for everyday use is not only worthwhile but in many cases also valuable. My own experience in changing systems was driven by continual frustrations with the performance of Windows 11. I have converted one laptop and a small PC—one running Cosmic Pop!_OS and the other using Manjaro KDE Plasma—along with a headless Debian server. The main advantages are much faster application start-up times and a general feeling that the computers operate more efficiently when running Linux. There are difficulties involved, such as problems with Bluetooth connectivity, issues with touchscreen compatibility, and the difficulty of getting used to terminal-based workflows, together with practical solutions to these problems. Recommendations include beginning with older hardware, being patient with hardward incompatibility, use the terminal more, and looking for MS Office alternatives. A summary table of the advantages and disadvantages is included.
 kernelspec:
   name: python3
   display_name: Python 3
@@ -26,13 +26,32 @@ exports:
     output: linux.pdf     
 ---
 
-# Windows OS Frustration
-Nearly two years ago, I became very frustrated with Windows 11 on a Dell XPS laptop I used for work. It would get particularly bad when Windows Defender would run in the middle of the mornig, rendering my mouse, some programs, and making everything exceptionally slow for about an hour. I tried everything to reschedule the scans, from turning it off to turning it back on, but it kept running at inopportune moments, like it had a mind of its own.
+:::{figure} linuxmove.png
+:alt: linux move from windows
+:::
 
-I had been thinking about switching my main work pc to Linux at the time, and one morning when Defender was really bad, I ordered a new PC. I had been experimenting with Linux Mint and Ubuntu on an old laptop that didn't have enough memory to install Windows 11, and both OS's brought new life to the machine, running quickly and operating like a PC should: for you!
+# Moving to Linux
+Nearly two years ago, I became very frustrated with Windows 11 on a Dell XPS laptop I used for work. It would get particularly bad when Windows Defender would run in the middle of the morning, rendering my mouse, some programs, and slowing down the laptop to the verge of unusability. I tried everything to reschedule the scans, or even turning Defender off, but it kept running at inopportune moments, like it had a mind of its own.
 
-# Changing to Linux
-My Microsoft Surface laptop (I'm aware of the irony) ended up with Cosmic Popos, which is a great operating system built by the folks at System76. It has nice shortcuts, runs well, and includes cool features like auto-tiling. QGIS, a free and open source geospatial program, opens in seconds, whereas in Windows it took much longer, perhaps minutes. 
+I had been thinking about switching my main work pc to Linux at the time, and one morning when Defender was really bad, I experimented with an Ubuntu install on an older laptop which brought new life to the machine that was bogged down even running Windows 10. That convinced me to pare down software on the XPS and purchase a mini-pc and do a new install with a Linux OS.
+
+# Nuts & bolts
+My Microsoft Surface laptop (I'm aware of the irony) ended up with Cosmic Popos, which is a great operating system built by the folks at System76. It has nice shortcuts, runs well, and includes cool features like auto-tiling. QGIS, a free and open source geospatial program, opens in seconds, whereas in Windows it took much longer, perhaps minutes. A key part of change is diving into the Bios and boot menus. See {numref}`bios` to find the BIOS key and boot menu key for your hardware.
+
+:::{table} Quick reference guide for BIOS setup and boot menu keys
+:label: bios
+
+| Brand | BIOS Key | Boot Menu Key |
+| :---- | :------- | :----------- |
+| Acer | F2 | F12 |
+| ASUS | F2 | Esc |
+| Dell | Esc + F10 | F12 |
+| HP | F2 | F12 |
+| Lenovo | F1 or F2  | F12 |
+| Microsoft | Vol Up + Power | Vol Down + Power |
+| Toshiba | F2 | F12 |
+
+:::
 
 :::{important} Installing Pop!_OS
 :class: dropdown
@@ -144,12 +163,6 @@ The new PC arrived, a shiny (and tiny) Geekom A8 with AMD Ryzen 7. Not the shini
 
 The latter continued to plague use where the wireless Logitech keyboard (which worked great in Windows!) had issues connecting to Bluetooth. Sometimes Bluetooth connection issues feel like giving a PowerPoint presentation in the 90s where it was always a challenge to connect to a projector. Anyway, I swapped out that beleved keyboard for one that's almost as good, but that connects flawlessly every time I use the PC. 
 
-Kept Windows on old pc, but deleted a lot of extra stuff
-pc w/o screen or keyboard was a challenge for installation
-
-## Test case
-Trip to CA with Windows laptop and it worked flawlessly, didn't miss Windows
-
 ## Key Software
 Some key software to help you make the leap
 1. OnlyOffice
@@ -170,7 +183,7 @@ QGIS opens in seconds, even on the older laptop
 | PROS | CONS  |
 | :--------------- | :---------- |
 | 🟢 Just works | 🟡 A little like living in a foreign country |
-| 🟢 New and innovative solutions like auto-tiling | 🟡 Hardware compability |
+| 🟢 New and innovative solutions like auto-tiling | 🟡 Hardware compatibility |
 | 🟢 Living in the terminal more | 🟡 Constant updates |
 | 🟢 Machines run well and apps are fast | 🟡 Bluetooth, touchscreen issues |  
 | 🟢 Learning curve |🟡 Learning curve | 
@@ -186,8 +199,15 @@ QGIS opens in seconds, even on the older laptop
 - **MS Office**. You might miss some Microsoft products like Word, Excel, and PowerPoint, but OnlyOffice is worth installing because it can read and open any files created in MS Office and does a lot of things that Office can do. I almost never use Word anymore unless I'm collaborating on a project with colleagues who use Word (I've replaced it with Markdown, VS Code, and OnlyOffice). I still use certain elements of Excel, probably because I haven't yet explored the spreadsheet functionality in OnlyOffice and I'm familiar with certain formulas, power query, and pivot tables in Excel. I have started replacing a lot of Excel charting and analysis features with Python, and I find the script replicability more dependable once set up. Most Linux OSs ship with LibreOffice, which is ok, but I've found OnlyOffice much more functional.
 - **Experiment**. Try out new apps and experiment. It's kinda fun and may remind you of how fun it was when you first started using computers.
 
-# Hardware
-The current general hardware I'm using without all the details is the following:
+# Resources
+The Linux community generally is awesome and very helpful so there are a lot of resources out there. So much that it can be hard to wade through them all. Here are a couple of resources you may find useful:
+
+1. [Introduction to Linux](https://www.youtube.com/watch?v=sWbUDq4S6Y8). A comprehensive course from freeCodeCamp.org on using Linux for beginners. Six hours of nearly everything you need to know.
+2. [Manjaro Linux Tutorials](https://www.youtube.com/watch?v=TN_xsd92XpI&list=PLAxJ4-o7ZoPcGbgcOikBiooM15cbdQta1). Set of excellent tutorials from Qiushen Wu on installing Manjaro on your computer. One item that stood out to me was using shell scripts to automate software installation when you carry out an install. This makes switching distros or reinstalling very quick and avoids having to download each software package you use. 
+3. [Download Ubuntu & Create Bootable USB](https://www.youtube.com/watch?v=AB0lXpoql7s). This video is simple and to the point about creating a bootable USB drive to install Linux.
+
+## Appendix: Hardware
+For what it's worth, here are the general software installations I have running with PC's I own:
 
 1. PopOS running on a Microsoft Surface Laptop.
 2. Raspberry Pi 5 running as a lab for cloud software.
