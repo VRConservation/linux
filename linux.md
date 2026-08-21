@@ -37,6 +37,10 @@ Operating systems are (not) the most exciting thing in the world, but like plumb
 
 I had been thinking about switching my main work PC to Linux at the time. One morning, when Defender was really bad, I installed Ubuntu on an older laptop that Windows had bogged down. It worked flawlessly and brought new life into the laptop. That experience immediately convinced me to purchase a new pc and install a fresh Linux distro. This way I could pare down apps on the "old" laptop but still run some apps not available in Linux such as ArcGIS.
 
+:::{figure} geo.png
+:alt: computer magic
+:::
+
 ## Killing Windows
 The new PC arrived, a shiny (and tiny) Geekom A8 with AMD Ryzen 7. It came with Windows 11 installed. I opted to install Manjaro KDE Plasma on a colleague's recommendation. It was extremely satisfying to delete Windows during installation,. I can't say the install was hiccup-free, the PC/Manjaro wouldn't recognize wireless keyboards and I had to plug one in to complete the setup, but once around those obstacles, it was up and running. 
 
@@ -46,6 +50,10 @@ Once swapped out the new keyboard worked well. I ended up not swapping out a Log
 
 # Nuts & bolts
 The laptop where I initially installed Ubuntu is a Microsoft Surface laptop (I'm aware of the irony). After trying out Ubuntu and Mint on it, I switched to Pop!_OS, a great operating system built by the folks at System76. Pop!_OS, which is impossible to type out rapidly, has nice shortcuts, runs without issues, and includes cool features like auto-tiling. QGIS, a free and open source geospatial program, opens in seconds, whereas in Windows it took much longer, perhaps minutes. On the laptop there were still some software issues such as closing the laptop disconnecting from wifi until I rebooted and not being able to use the touchscreen (I tried to make it work, never succeeded). 
+
+:::{figure} text-erase.png
+:alt: installing apps
+:::
 
 ## Installation
 Installing Linux is straightforward (see the Installing Pop!_OS dropdown below). Aside from creating a bootable USB, a key part of the installation is diving into the BIOS, which can be frustrating to access and feel like a trip back to the 20th century. See {numref}`bios` to find the BIOS key and boot menu key for your hardware. Don't give up after one try; it often takes multiple attempts and repeated correct key presses.
@@ -175,8 +183,12 @@ Software recommendatons to help you make the leap includes the following:
 4. **Kate**. Really great text editor that can also be used as an IDE.
 5. **VS Code**. Visual Studio Code is the IDE that everyone uses. Some people recommend VSCodium, which is the same open-source editor as VS Code but without telemetry/tracking.
 
+:::{figure} lis.png
+:alt: lost in space
+:::
+
 # Pros/cons
-{numref}`sum_table` outlines the pluses and deltas of using Linux across different machines. You'll notice speed with the clean install, especially on software that takes much longer to open in Windows. You'll likely find that working in Linux at first is like living in a foreign country. You'll immediately like some things and miss others. You're OS bilingual now, so you can always return to Windows for the things you like there.
+The pluses and deltas of using Linux across different machines can be very different. However I've tried to summarize some observed elements across machines and distros {numref}`sum_table`. You'll notice speed with the clean install, especially on software that takes much longer to open in Windows. You'll likely find that working in Linux at first is like living in a foreign country. You'll immediately like some things and miss others. You're OS bilingual now, so you can always return to Windows for the things you like there.
 
 :::{table} Summary of pros and cons for using the Linux OS instead of Windows. Note that living in a foreign country is both a pro and a con; you'll always like and dislike things anywhere.
 :label: sum_table
