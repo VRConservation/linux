@@ -30,8 +30,8 @@ exports:
 :alt: Linux move from Windows
 :::
 
-# Moving to Linux
-I admit it, this isn't the most exciting topic for some folks, but what operating system your computer uses affects you every day at work, which is a lot of time. Nearly two years ago, I became very frustrated with Windows 11 on a Dell XPS laptop I used for work. It got particularly bad when Windows Defender ran in the middle of the morning, rendering my mouse and some programs unusable and slowing the laptop to the point of being nearly unusable. I tried everything to reschedule the scans, or even turning Defender off, but it kept running at inopportune moments, like it had a mind of its own.
+# The Move
+Operating systems are not the most exciting thing in the world, but like plumbing or electricity and other infrastructure, they need to work. The operating system your computer uses affects you every day at work, which is a lot of time. Nearly two years ago, I became very frustrated with Windows 11 on a Dell XPS laptop I used for work. It got particularly bad when Windows Defender ran in the middle of the morning, rendering my mouse and some programs unusable and slowing the laptop to the point of being nearly unusable. I tried everything to reschedule the scans, or even turning Defender off, but it kept running at inopportune moments, like it had a mind of its own.
 
 I had been thinking about switching my main work PC to Linux at the time, and one morning, when Defender was really bad, I experimented with an Ubuntu install on an older laptop, which brought new life to a machine that was bogged down even running Windows 10. That convinced me to pare down the software on the XPS, buy a mini-PC, and do a fresh install with a Linux OS.
 
